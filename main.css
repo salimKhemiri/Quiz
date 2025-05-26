@@ -1,0 +1,61 @@
+body{
+    background-color: #00008B;
+}
+.main-container{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 500px;
+    background-color: white;
+
+}
+.main-container h1{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Q-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.list{
+    
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    background: none;
+    border: solid 3px #00008B;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.list:hover:not([disabled]){
+    background-color: aliceblue;
+}
+.list:disabled{
+    cursor: no-drop;
+}
+.Correct{
+    background-color: green;
+}
+.inCorrect{
+    background-color: red;
+}
+.btnN{
+    position: absolute;
+    background-color: #00008B;
+    width: 150px;
+    height: 40px;
+    border: solid 1 px ;
+    border-radius: 100px;
+    border-color: #00008B;
+    bottom: 4%;
+    left: 35%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
